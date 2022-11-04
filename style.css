@@ -7,10 +7,15 @@ body {
 }
 
 .principal{
-    background-color: #CCCCCC
+    background-color: #CCCCCC;
+    padding: 30px;
 }
 
-h1 {
+.titulo-principal {
+    padding-left: 2opx;
+}
+
+.titulo-centralizado {
 text-align: center;
 }
 
@@ -32,4 +37,16 @@ em strong {
 
 .beneficios {
         background-color: #FFFFFF;
+        padding: 20px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagembeneficios {
+    width: 50%;
 }
